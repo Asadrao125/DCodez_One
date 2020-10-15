@@ -6,13 +6,8 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/my_profile_bottom"
-        android:icon="@drawable/ic_username"
-        android:title="Profile" />
-
-    <item
         android:id="@+id/services_bottom"
-        android:icon="@drawable/ic_username"
+        android:icon="@drawable/ic_services"
         android:title="Services" />
 
     <item
@@ -24,5 +19,10 @@
         android:id="@+id/deals_bottom"
         android:icon="@drawable/ic_deal"
         android:title="Deals" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
 
 </menu>

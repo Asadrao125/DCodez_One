@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNav = (BottomNavigationView) findViewById(R.id.bottom_nav);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
-
         HomeFragment fragment = new HomeFragment();
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction ft = manager.beginTransaction();
@@ -73,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.deals_bottom:
                             replaceFragment(new DealsFragment());
                             break;
-                        case R.id.my_profile_bottom:
-                            replaceFragment(new ProfileFragment());
+                        case R.id.settings:
+                            replaceFragment(new SettingsFragment());
                             break;
                         default:
                             Toast.makeText(MainActivity.this, "Default", Toast.LENGTH_SHORT).show();
