@@ -30,7 +30,7 @@
                <ImageView
                    android:layout_width="150dp"
                    android:layout_height="150dp"
-                   android:src="@drawable/irish_logo_black"
+                   android:src="@drawable/final_logo"
                    android:contentDescription="TODO" />
 
                <TextView
@@ -85,7 +85,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/gradient"
                     android:textColor="@color/white"
                     android:textSize="22sp"
                     android:id="@+id/btnLogin"
@@ -107,13 +107,13 @@
                     android:text="Forget Password ?"
                     android:textSize="16sp"
                     android:id="@+id/tvForgetPassword"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/dark_blue"
                     android:layout_marginRight="10dp"/>
 
                 <TextView
                     android:id="@+id/tvRegisterHere"
                     android:textSize="16sp"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/dark_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Register Here"/>

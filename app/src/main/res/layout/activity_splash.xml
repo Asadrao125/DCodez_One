@@ -9,10 +9,9 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_marginBottom="30dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/irish_logo_black"
+        android:src="@drawable/final_logo"
         tools:ignore="ContentDescription" />
 
 </LinearLayout>
