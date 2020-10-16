@@ -15,8 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="135dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:background="@drawable/white_curve"
             android:orientation="vertical">
 
@@ -42,6 +40,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/username_register"
                 app:met_floatingLabel="highlight"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:hint="Username"
                 android:inputType="textPersonName|textCapWords"
                 android:drawableRight="@drawable/ic_username" />
@@ -50,6 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:met_floatingLabel="highlight"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:id="@+id/email"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
@@ -60,6 +62,8 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberPassword"
                 android:hint="Password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:id="@+id/password_register"
                 app:met_floatingLabel="highlight"
                 android:layout_marginTop="10dp"
@@ -71,6 +75,8 @@
                 app:met_floatingLabel="highlight"
                 android:id="@+id/country"
                 android:hint="Country"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:inputType="textPersonName|textCapWords"
                 android:drawableRight="@drawable/ic_country" />
 
@@ -81,6 +87,8 @@
                 android:hint="Mobile"
                 android:id="@+id/mobile"
                 android:inputType="number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:drawableRight="@drawable/ic_mobile" />
 
             <Button
