@@ -27,14 +27,12 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                finish();
             }
         });
         tv_edit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                finish();
+                startActivity(new Intent(getApplicationContext(), EditProfileActivity.class));
             }
         });
     }
